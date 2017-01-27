@@ -1,13 +1,17 @@
 /* global stuff */
-
 body{
-	background-image: url("../assets/images/grass.jpg");
-	 background-size:cover;
-	 font-family: "Times New Roman", Times, serif;
+	background-image: url("../assets/images/grass.jpg"); /* backgound zoom cover index google */
+	background-size:cover;
+	font-family: "Times New Roman", Times, serif;
 	}
 
 h1, h2, h3 {
 	font-weight: bold;
+}
+
+p {
+	font: "times new roman";
+	font-size: 17px;
 }
 
 #page-wrapper{
@@ -23,7 +27,6 @@ h1, h2, h3 {
 	border: solid;
 	border-color:  #36456e;
 	border-radius: 2% 2% 2% 2%;
-
 }
 
 .logo{
@@ -57,6 +60,7 @@ h1, h2, h3 {
 	color: white;
 	font-size: 20px;
 	opacity: .9;
+	position: relative;
 }
 
 #earth-elements-h1{
@@ -79,6 +83,40 @@ h1, h2, h3 {
 }
 
 
+#global-footer{
+	margin-top: 10px;
+	background-color: #0076a3;
+	opacity: 0.85;
+	border-width: 2px;
+	border: solid;
+	border-color:  #36456e;
+	border-radius: 2% 2% 2% 2%;
+	text-align: center;
+	height: auto;
+
+}
+#servicing {
+	background-color: #0076a3;
+	color: white;
+	font-size: 22px;
+	opacity: .9;
+	float: center;
+	text-shadow: 2px 2px red; 
+}
+
+#tree {
+	margin-left: 7px;
+	margin-right: 7px;
+	color: white;
+	text-shadow:;
+}
+
+#copyright {
+	font-size: 16px;
+	color: white;
+
+}
+
 /*---------------------------------------------------------*/
 /* Body Content */ 
 #body-left-background{
@@ -92,8 +130,7 @@ h1, h2, h3 {
 	border: solid;
 	border-color:  #36456e;
 	border-radius: 2% 2% 2% 2%;
-	size: auto;
-	
+	size: auto;	
 }
 	
 #body-right-background{
@@ -109,12 +146,22 @@ h1, h2, h3 {
 	border-radius: 2% 2% 2% 2%;
 
 }
+
+
 #index-contact{
 	background-color: #0076a3;
 	color: white;
 	font-size: 25;
 	opacity: 1;
+	list-style: none;
 }
+
+#index-contact-form {
+	list-style: none;
+	padding: 0;
+	margin:0;
+}
+
 
 #index-content-right{
 	opacity: 1;
@@ -145,19 +192,7 @@ h1, h2, h3 {
 	width: 100%;
 	z-index: +1;
 	opacity: 1;
-
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media only screen and (max-width: 1300px) {
@@ -201,10 +236,77 @@ body{
 	width: auto;
 }
 
+}
 
 
 @media only screen (max-width: 768px) {
 
+}
+
 @media  screen and (max-width: 680px) {
 
+body{
+	background-image: url("../assets/images/grass.jpg");
+	 background-size: auto;
+}
+
+
+.logo{
+	height: auto;
+	width: auto
+	margin-top: 2px;
+	margin-left: 200px;
+	z-index: 0;
+	opacity: 1;
+	position: relative;
+	text-align: center;
+}
+
+#global-header{
+	height: 100px;
+	margin-top: 10px;
+	background-color: #0076a3;
+	opacity: 0.85;
+	border-width: 2px;
+	border: solid;
+	border-color:  #36456e;
+	border-radius: 2% 2% 2% 2%;
+}
+
+
+#freequotes {
+	display: none;
+}
+#earth-elements-h1{
+	display: none;
+}
+
+#body-left-background {
+	display: none;
+}
+
+#navoptions {
+	background-color: #0076a3;
+	color: white;
+	font-size: 15px;
+	opacity: .9;
+}
+
+.logo{
+	max-height: 200px;
+	max-width: 200px;
+}
+
+#body-right-background{
+	width: 85%;
+	margin-right: 20px;
+
+}
+#index-content-right{
+	width: auto;
+}
+#index-service-images{
+	width: auto;
+}
+}
 
